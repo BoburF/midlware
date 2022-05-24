@@ -1,11 +1,13 @@
 const express = require('express')
 const app = express()
 const Joi = require('joi')
-// const helmet = require('helmet')
+const helmet = require('helmet')
+const morgan = require('morgan')
 require('dotenv').config()
 
 app.use(express.json())
-// app.use(helmet())
+app.use(helmet())
+app.use(morgan('tiny'))
 
 app.get('/',  (req, res, next) => {
     // console.log(req.url);
