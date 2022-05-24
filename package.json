@@ -1,0 +1,23 @@
+{
+  "name": "davy",
+  "version": "1.0.0",
+  "description": "test uchun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoburF/midlware.git"
+  },
+  "author": "Bobur Abdullayev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoburF/midlware/issues"
+  },
+  "homepage": "https://github.com/BoburF/midlware#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
